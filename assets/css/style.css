@@ -81,3 +81,11 @@
 .botonatras:hover .svgIcon {
     transform: translateY(-200%) rotate(-90deg);
 }
+
+
+.card-img-top {
+ 
+  height: 200px; 
+  
+  object-fit: cover;
+}

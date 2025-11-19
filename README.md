@@ -47,7 +47,7 @@ assets/
 
 
 ### GITHUB
-
+https://github.com/ConnorsSilverblue/31-minutos-ecommerce-proyecto-ficticio
 
 
 ## Autora

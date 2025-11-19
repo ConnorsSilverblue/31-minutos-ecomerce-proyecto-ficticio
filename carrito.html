@@ -17,7 +17,7 @@
 
       <ul class="list-group">
       <li class="list-group-item">Polera Guaripolo - $9.990</li>
-      <li class="list-group-item">Pack Titeres - $12.990</li>
+      <li class="list-group-item">Titere - $5.990</li>
     </ul>
     
     <button class="btn btn-success mt-3">Finalizar Compra (no funcional)</button>
@@ -38,13 +38,11 @@
 <!-- Script del botón -->
 <script>
   const botonatras = document.getElementById("botonatras");
+
   botonatras.addEventListener("click", function () {
-    if (window.history.length > 1) {
-      window.history.back();
-    } else {
-     
-    }
- });
+    window.location.href = "index.html"; // vuelve siempre al inicio
+  });
 </script>
+
 </body>
 </html>

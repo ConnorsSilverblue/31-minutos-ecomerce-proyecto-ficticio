@@ -1,3 +1,4 @@
+// BOTÓN SUBIR
 const botonsubir = document.getElementById("botonsubir");
 
 botonsubir.addEventListener("click", function () {
@@ -5,15 +6,13 @@ botonsubir.addEventListener("click", function () {
     top: 0,
     behavior: "smooth",
   });
-  console.log("Subiendo ⬆️");
 });
 
-const botonatras = document.getElementById("botonatras");
 
-botonatras.addEventListener("click", function () {
-  if (window.history.length > 1) {
-    window.history.back();
-  } else {
+const botonAtrasIndex = document.getElementById("botonatras");
+
+if (window.location.pathname.includes("index.html") || window.location.pathname === "/") {
+  botonAtrasIndex.addEventListener("click", function () {
     alert("No hay página anterior 😅 (pero el botón funciona!)");
-  }
-});
+  });
+}

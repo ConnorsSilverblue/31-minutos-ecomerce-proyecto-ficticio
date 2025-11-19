@@ -19,7 +19,7 @@ La temática elegida fue **“Los perritos de Mario Hugo”** del programa 31 Mi
   - Subir al inicio  
   - Volver atrás (con mensaje incluido)
 
-### ✔️ Página del carrito (carrito.html)
+### Página del carrito (carrito.html)
 - Lista de productos de ejemplo.
 - Botón “Finalizar compra” (solo decorativo).
 - Botón “Volver atrás”, que lleva siempre a la página principal.
